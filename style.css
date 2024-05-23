@@ -4,21 +4,27 @@ body {
     margin: 20px;
     background-color: #f5f5dd;
 }
-.conteiner{
-    width: 90%;
-    margin: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
+
 
 /* Estilos para los encabezados */
 h1, h2, h3 {
-    color: #0b154e;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: #060d4d;
     text-align: center;
+    
 }
 
+/* Estilo para el parrafo */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #0ce93c;
+}
 /* Estilo para la imagen */
 img {
     display: block;
@@ -55,7 +61,7 @@ th, td {
 }
 
 th {
-    background-color: #2c3e50;
+    background-color: #0ff144;
     color: white;
 }
 
